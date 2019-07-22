@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container .p1{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    text-transform: capitalize;
+}
+.container .p2{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1;
+    color: #000000;
+}
+.sext a{
+    text-decoration: none !important;
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4F4F4F;
+}
+.sext a:hover{
+    color: maroon;
+}
+.sext i{
+    color: #2A672D;
+}
+.container .amt{
+    font-family:'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.container .amt1{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    color: #EC407A;
+}
+.container .amt2{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #83C281;
+    text-transform: capitalize;
+    margin-bottom: -5px;
+
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: -4px 2px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+.pro{
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.82143px;
+    line-height: 10px;
+    color: #FFFFFF;
+    
+}
+.anc{
+    text-decoration: none !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.82143px;
+    line-height: 10px;
+    color: #FFFFFF;
+    
+}
+.sixt i{
+    color: white;
+}
+.foot{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #C4C4C4;    
+}
+a{
+    text-decoration: none !important;
+}

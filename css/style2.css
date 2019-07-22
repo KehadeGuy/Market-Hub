@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.android{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #444444;
+
+}
+.quint img{
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+.descc{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #444444;
+}
+.sales{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    color: #B4B5B4;
+}
+.p7{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;    
+    color: #4F4F4F;
+    
+}
+.p8{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.p9{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #62B369;
+    text-decoration: none !important;
+}
+.p9:hover{
+    color: maroon;
+}
