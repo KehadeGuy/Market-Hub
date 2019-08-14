@@ -64,7 +64,8 @@ input[type="number"] {
     cursor: pointer;
     margin: 0;
     position: relative;
-    font-size: 20px;
+    font-size: 12px;
+    
   }
   
   .number-input button:before,
@@ -91,7 +92,7 @@ input[type="number"] {
     height: 2rem;
     font-weight: bold;
     text-align: center;
-    /* border-radius: 50%; */
+    color: #444444;
   }
   /*end  */
 .sales{
