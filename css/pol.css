@@ -14,10 +14,19 @@ body{
 i{
     color:#3B144E;;
 }
-/* .nav-link:hover{
-    background-color: #702793;
+.nav-item{
+    background-color: #3B144E;
+    color: #FFFFFF;
+}
 
-} */
+.nav-item a{
+    color: #FFFFFF;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #fff;
+    background-color: #702793;
+}
 .west1{
     margin-top: 12%;
     margin-left: 35%;
