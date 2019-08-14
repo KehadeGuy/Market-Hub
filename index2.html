@@ -114,7 +114,7 @@
                             <div class="input-group ml-5 mb-5" style="height: 35px;">
                                 <input type="mail" class="form-control search-box"
                                     placeholder="Enter your email address to apply..." size="40"
-                                    aria-label="Search for..." style="background-color: #E3E3E3;">
+                                    aria-label="Search for...">
                                 <span class="input-group-btn">
                                     <button class="btn search-btn" type="button" style="background: #F7991B;">
                                         <p style="color:white;" class="pb-5">Apply</p>
@@ -165,7 +165,14 @@
                     <div class="col-md-8">
                         <div class="d-flex flex-row">
                             <p class="mr-3 p7">Quantity:</p>
-                            <input type="number" style="border-radius:4px; width: 70px;">
+                            <!-- <input type="number" style="border-radius:4px; width: 70px;"> -->
+                            <div class="number-input">
+                                <button
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+                                <input class="quantity" min="0" name="quantity" value="1" type="number">
+                                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                    class="plus"></button>
+                            </div>
 
                         </div>
                     </div>
